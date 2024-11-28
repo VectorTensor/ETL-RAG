@@ -1,0 +1,3 @@
+[submodule "cpp_producer/externals/faker-cxx"]
+	path = cpp_producer/externals/faker-cxx
+	url = https://github.com/cieslarmichal/faker-cxx.git
