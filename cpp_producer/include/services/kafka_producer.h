@@ -1,3 +1,3 @@
 
-void RunProducer(char  (&topic_)[100], char (&message_)[100]);
+void RunProducer(char  (&topic_)[100], const char *message_);
 

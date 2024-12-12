@@ -1,11 +1,12 @@
 #include <cstdlib>
+#include <cstring>
 #include <iostream>
 #include <unistd.h>
 #include <librdkafka/rdkafka.h>
 
 
 
-void RunProducer(char  (&topic_)[100], char (&message_)[100]){
+void RunProducer(char  (&topic_)[100], const char *message_){
 
     char hostname[128];
     char errstr[512];
@@ -55,8 +56,8 @@ void RunProducer(char  (&topic_)[100], char (&message_)[100]){
     rd_kafka_topic_t *rkt = rd_kafka_topic_new(rk, topic_, topic_conf);
 
     // Send payload
-    std::cout<<"message: "<<message_<<std::endl;
-    if (rd_kafka_produce(rkt, RD_KAFKA_PARTITION_UA, RD_KAFKA_MSG_F_COPY, (void *) &message_, sizeof(&message_), NULL, 0, NULL) == -1){
+    std::cout<<"message: "<<*message_<<std::endl;
+    if (rd_kafka_produce(rkt, RD_KAFKA_PARTITION_UA, RD_KAFKA_MSG_F_COPY, (void *) message_, strlen(message_), NULL, 0, NULL) == -1){
 
         fprintf(stderr, "failed %s \n",errstr);
     }

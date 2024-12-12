@@ -10,6 +10,7 @@ find_path(RDKAFKA_INCLUDE_DIR NAMES rdkafka.h PATHS /usr/include/librdkafka )
 
 include_directories(${RDKAFKA_INCLUDE_DIR})
 include_directories(include/)
+find_package(json-c REQUIRED)
 add_library(kafka_produce SHARED src/services/kafka_producer.cpp)
 add_executable(${PROJECT_NAME}
     src/main.cpp
@@ -18,3 +19,4 @@ add_executable(${PROJECT_NAME}
 target_link_libraries(kafka_produce ${RDKAFKA_LIBRARY})
 target_link_libraries(${PROJECT_NAME} faker-cxx)
 target_link_libraries(${PROJECT_NAME} kafka_produce)
+target_link_libraries(${PROJECT_NAME} json-c)
