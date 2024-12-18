@@ -6,7 +6,7 @@ import boto3
 
 dotenv.load_dotenv()
 
-access_key_id = "AKIAVUPA5TNW2L44QUF5"
+access_key_id = os.getenv('AWS_ACCESS_KEY_ID')
 access_key = os.getenv('AWS_SECRET_ACCESS_KEY')
 region = os.getenv('AWS_REGION')
 
@@ -46,17 +46,26 @@ class FoundationModel:
         self.model_name = model_name_
 
     def get_json_from_text(self, text_):
-        return self.call_model(text_)
-
-    def call_model(self, text_):
 
         prompt = self.base_prompt + text_ + "\n result:"
+        return self.call_model(prompt, 0, 0.9, 512)
+
+    def get_fake_letter(self):
+        text_ = ("write a fake letter where a person is taking about how they are feeling and it should include "
+                 "information about their current place name and temperature. The information about these should come "
+                 "naturally in the letter. only generate letter nothing extra.")
+
+        return self.call_model(text_, 0.3, 0.9, 100)
+
+    def call_model(self, text_, temp, top_p, max_):
+
         try:
             # Send the prompt to the Bedrock model
             payload = {
-                "prompt": prompt,
-                "temperature": 0,
-                "top_p": 0.9
+                "prompt": text_,
+                "temperature": temp,
+                "top_p": top_p,
+                "max_gen_len": max_
             }
 
             response = self.client.invoke_model(
@@ -68,7 +77,7 @@ class FoundationModel:
             # Parse and return the response
             result = response['body'].read().decode('utf-8')
             result_json = json.loads(result)
-            return json.loads(result_json['generation'])
+            return result_json["generation"]
         except Exception as e:
             print(f"Error invoking model: {e}")
             return {}

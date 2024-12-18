@@ -7,7 +7,7 @@ import json
 
 dotenv.load_dotenv()
 
-access_key_id = "AKIAVUPA5TNW2L44QUF5"
+access_key_id = os.getenv('AWS_ACCESS_KEY_ID')
 access_key = os.getenv('AWS_SECRET_ACCESS_KEY')
 region = os.getenv('AWS_REGION')
 
