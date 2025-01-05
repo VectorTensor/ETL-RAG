@@ -1,0 +1,702 @@
+[
+    {
+        "product_id": 2,
+        "customer_id": 594,
+        "cogs": 630.7101709593826,
+        "quantity": 2,
+        "unit_sale_price": 910.0350267117619
+    },
+    {
+        "product_id": 3,
+        "customer_id": 318,
+        "cogs": 560.1009353627392,
+        "quantity": 3,
+        "unit_sale_price": 640.1787682365452
+    },
+    {
+        "product_id": 1,
+        "customer_id": 784,
+        "cogs": 869.3989376094947,
+        "quantity": 6,
+        "unit_sale_price": 1180.5019804954618
+    },
+    {
+        "product_id": 1,
+        "customer_id": 750,
+        "cogs": 450.7316057417718,
+        "quantity": 10,
+        "unit_sale_price": 1114.9596802518836
+    },
+    {
+        "product_id": 13,
+        "customer_id": 956,
+        "cogs": 624.0211219932388,
+        "quantity": 9,
+        "unit_sale_price": 761.5624124898943
+    },
+    {
+        "product_id": 1,
+        "customer_id": 810,
+        "cogs": 102.66814241148391,
+        "quantity": 5,
+        "unit_sale_price": 126.90560549980509
+    },
+    {
+        "product_id": 11,
+        "customer_id": 229,
+        "cogs": 279.3420811186845,
+        "quantity": 5,
+        "unit_sale_price": 701.3730501881831
+    },
+    {
+        "product_id": 1,
+        "customer_id": 152,
+        "cogs": 133.0377940505507,
+        "quantity": 5,
+        "unit_sale_price": 621.2325388723208
+    },
+    {
+        "product_id": 2,
+        "customer_id": 919,
+        "cogs": 490.0281867280628,
+        "quantity": 6,
+        "unit_sale_price": 899.2564049365344
+    },
+    {
+        "product_id": 4,
+        "customer_id": 702,
+        "cogs": 137.17094334958603,
+        "quantity": 6,
+        "unit_sale_price": 226.98419318373664
+    },
+    {
+        "product_id": 5,
+        "customer_id": 840,
+        "cogs": 725.4463377772499,
+        "quantity": 9,
+        "unit_sale_price": 907.5372233775563
+    },
+    {
+        "product_id": 6,
+        "customer_id": 111,
+        "cogs": 833.434119773612,
+        "quantity": 9,
+        "unit_sale_price": 845.2440338511024
+    },
+    {
+        "product_id": 10,
+        "customer_id": 913,
+        "cogs": 620.8295519271863,
+        "quantity": 7,
+        "unit_sale_price": 1006.9807391341984
+    },
+    {
+        "product_id": 13,
+        "customer_id": 861,
+        "cogs": 178.55864147804067,
+        "quantity": 7,
+        "unit_sale_price": 1027.5563042425078
+    },
+    {
+        "product_id": 13,
+        "customer_id": 791,
+        "cogs": 318.65473284359445,
+        "quantity": 5,
+        "unit_sale_price": 503.8202053387655
+    },
+    {
+        "product_id": 12,
+        "customer_id": 505,
+        "cogs": 974.8916406726837,
+        "quantity": 7,
+        "unit_sale_price": 1094.897357419936
+    },
+    {
+        "product_id": 3,
+        "customer_id": 480,
+        "cogs": 374.8126580497057,
+        "quantity": 1,
+        "unit_sale_price": 575.2762727130747
+    },
+    {
+        "product_id": 4,
+        "customer_id": 407,
+        "cogs": 425.53970016944925,
+        "quantity": 9,
+        "unit_sale_price": 930.5472052549609
+    },
+    {
+        "product_id": 8,
+        "customer_id": 322,
+        "cogs": 559.9575271163139,
+        "quantity": 3,
+        "unit_sale_price": 759.6692027575853
+    },
+    {
+        "product_id": 13,
+        "customer_id": 427,
+        "cogs": 121.45436472467485,
+        "quantity": 9,
+        "unit_sale_price": 1072.0232668986716
+    },
+    {
+        "product_id": 12,
+        "customer_id": 531,
+        "cogs": 664.4086424304716,
+        "quantity": 5,
+        "unit_sale_price": 701.7918424985247
+    },
+    {
+        "product_id": 3,
+        "customer_id": 305,
+        "cogs": 112.051197633412,
+        "quantity": 5,
+        "unit_sale_price": 350.61461990364074
+    },
+    {
+        "product_id": 1,
+        "customer_id": 435,
+        "cogs": 560.6008968181086,
+        "quantity": 6,
+        "unit_sale_price": 774.2993520773541
+    },
+    {
+        "product_id": 4,
+        "customer_id": 312,
+        "cogs": 760.5600712449435,
+        "quantity": 1,
+        "unit_sale_price": 1168.8245609332891
+    },
+    {
+        "product_id": 5,
+        "customer_id": 873,
+        "cogs": 154.50717411149003,
+        "quantity": 6,
+        "unit_sale_price": 507.97034864839566
+    },
+    {
+        "product_id": 5,
+        "customer_id": 308,
+        "cogs": 383.36405122277534,
+        "quantity": 2,
+        "unit_sale_price": 788.3131596619548
+    },
+    {
+        "product_id": 12,
+        "customer_id": 345,
+        "cogs": 547.3478639842176,
+        "quantity": 7,
+        "unit_sale_price": 1002.6248109164859
+    },
+    {
+        "product_id": 1,
+        "customer_id": 762,
+        "cogs": 870.265038813076,
+        "quantity": 1,
+        "unit_sale_price": 972.0494828703834
+    },
+    {
+        "product_id": 6,
+        "customer_id": 418,
+        "cogs": 875.6642999970059,
+        "quantity": 1,
+        "unit_sale_price": 1098.8695072575708
+    },
+    {
+        "product_id": 1,
+        "customer_id": 916,
+        "cogs": 985.3151385258742,
+        "quantity": 4,
+        "unit_sale_price": 1176.5279101572723
+    },
+    {
+        "product_id": 13,
+        "customer_id": 451,
+        "cogs": 847.7797919355996,
+        "quantity": 1,
+        "unit_sale_price": 893.8357800808164
+    },
+    {
+        "product_id": 12,
+        "customer_id": 686,
+        "cogs": 855.1260395028219,
+        "quantity": 9,
+        "unit_sale_price": 1126.881285493379
+    },
+    {
+        "product_id": 12,
+        "customer_id": 946,
+        "cogs": 628.4967336590654,
+        "quantity": 5,
+        "unit_sale_price": 729.1907335384583
+    },
+    {
+        "product_id": 1,
+        "customer_id": 743,
+        "cogs": 702.5100765156552,
+        "quantity": 2,
+        "unit_sale_price": 848.8106127473083
+    },
+    {
+        "product_id": 5,
+        "customer_id": 134,
+        "cogs": 994.4926729245824,
+        "quantity": 7,
+        "unit_sale_price": 1125.652687563888
+    },
+    {
+        "product_id": 2,
+        "customer_id": 675,
+        "cogs": 34.73281646985889,
+        "quantity": 5,
+        "unit_sale_price": 1048.5900380013045
+    },
+    {
+        "product_id": 11,
+        "customer_id": 229,
+        "cogs": 443.60247410511363,
+        "quantity": 4,
+        "unit_sale_price": 1030.5338213147452
+    },
+    {
+        "product_id": 4,
+        "customer_id": 360,
+        "cogs": 808.4335267489224,
+        "quantity": 8,
+        "unit_sale_price": 1043.0949342931824
+    },
+    {
+        "product_id": 1,
+        "customer_id": 396,
+        "cogs": 600.3651690857906,
+        "quantity": 8,
+        "unit_sale_price": 654.0566844822965
+    },
+    {
+        "product_id": 3,
+        "customer_id": 552,
+        "cogs": 451.79329255814457,
+        "quantity": 5,
+        "unit_sale_price": 986.0213128039078
+    },
+    {
+        "product_id": 9,
+        "customer_id": 671,
+        "cogs": 551.8084513873073,
+        "quantity": 4,
+        "unit_sale_price": 563.403187618608
+    },
+    {
+        "product_id": 2,
+        "customer_id": 698,
+        "cogs": 343.6068472437499,
+        "quantity": 1,
+        "unit_sale_price": 405.0628877424781
+    },
+    {
+        "product_id": 14,
+        "customer_id": 75,
+        "cogs": 963.9615985939993,
+        "quantity": 2,
+        "unit_sale_price": 997.9599184502684
+    },
+    {
+        "product_id": 8,
+        "customer_id": 341,
+        "cogs": 300.64868703416994,
+        "quantity": 5,
+        "unit_sale_price": 462.4772414306175
+    },
+    {
+        "product_id": 1,
+        "customer_id": 213,
+        "cogs": 278.45473148609454,
+        "quantity": 6,
+        "unit_sale_price": 822.9760020475851
+    },
+    {
+        "product_id": 7,
+        "customer_id": 432,
+        "cogs": 146.8571888704416,
+        "quantity": 3,
+        "unit_sale_price": 1042.4621411858354
+    },
+    {
+        "product_id": 9,
+        "customer_id": 907,
+        "cogs": 518.9800345490906,
+        "quantity": 1,
+        "unit_sale_price": 775.145075265582
+    },
+    {
+        "product_id": 4,
+        "customer_id": 186,
+        "cogs": 613.8206687564677,
+        "quantity": 7,
+        "unit_sale_price": 661.134057844038
+    },
+    {
+        "product_id": 12,
+        "customer_id": 311,
+        "cogs": 684.9862571657477,
+        "quantity": 4,
+        "unit_sale_price": 826.9213469870749
+    },
+    {
+        "product_id": 12,
+        "customer_id": 252,
+        "cogs": 979.4856417378268,
+        "quantity": 10,
+        "unit_sale_price": 1141.657328576249
+    },
+    {
+        "product_id": 3,
+        "customer_id": 882,
+        "cogs": 443.8862721649732,
+        "quantity": 3,
+        "unit_sale_price": 563.5541483245756
+    },
+    {
+        "product_id": 3,
+        "customer_id": 478,
+        "cogs": 17.210477145993195,
+        "quantity": 7,
+        "unit_sale_price": 353.95647804461805
+    },
+    {
+        "product_id": 3,
+        "customer_id": 705,
+        "cogs": 290.9915015534542,
+        "quantity": 1,
+        "unit_sale_price": 313.40200849433415
+    },
+    {
+        "product_id": 12,
+        "customer_id": 391,
+        "cogs": 52.41714481475902,
+        "quantity": 2,
+        "unit_sale_price": 920.1598421331776
+    },
+    {
+        "product_id": 6,
+        "customer_id": 546,
+        "cogs": 572.6162250764847,
+        "quantity": 8,
+        "unit_sale_price": 757.5083098934455
+    },
+    {
+        "product_id": 8,
+        "customer_id": 594,
+        "cogs": 963.4564340151262,
+        "quantity": 6,
+        "unit_sale_price": 1040.5257429376388
+    },
+    {
+        "product_id": 13,
+        "customer_id": 82,
+        "cogs": 917.3571032526206,
+        "quantity": 10,
+        "unit_sale_price": 989.5671469837815
+    },
+    {
+        "product_id": 12,
+        "customer_id": 382,
+        "cogs": 627.9695720985599,
+        "quantity": 9,
+        "unit_sale_price": 803.5339618722919
+    },
+    {
+        "product_id": 4,
+        "customer_id": 20,
+        "cogs": 830.400236225875,
+        "quantity": 9,
+        "unit_sale_price": 931.8150771870352
+    },
+    {
+        "product_id": 8,
+        "customer_id": 966,
+        "cogs": 718.9472271869544,
+        "quantity": 5,
+        "unit_sale_price": 803.6155146164756
+    },
+    {
+        "product_id": 8,
+        "customer_id": 369,
+        "cogs": 908.1037592416668,
+        "quantity": 4,
+        "unit_sale_price": 942.9991675333082
+    },
+    {
+        "product_id": 1,
+        "customer_id": 71,
+        "cogs": 559.0742214560665,
+        "quantity": 3,
+        "unit_sale_price": 1091.7037539432
+    },
+    {
+        "product_id": 7,
+        "customer_id": 620,
+        "cogs": 11.905577146676233,
+        "quantity": 8,
+        "unit_sale_price": 795.0096552859915
+    },
+    {
+        "product_id": 3,
+        "customer_id": 708,
+        "cogs": 98.2302165152661,
+        "quantity": 2,
+        "unit_sale_price": 1183.8431618616362
+    },
+    {
+        "product_id": 7,
+        "customer_id": 824,
+        "cogs": 337.615224295813,
+        "quantity": 1,
+        "unit_sale_price": 364.96519505267
+    },
+    {
+        "product_id": 12,
+        "customer_id": 509,
+        "cogs": 610.9931821156639,
+        "quantity": 8,
+        "unit_sale_price": 1169.2227221058183
+    },
+    {
+        "product_id": 6,
+        "customer_id": 128,
+        "cogs": 564.289555306596,
+        "quantity": 9,
+        "unit_sale_price": 1145.9821802880567
+    },
+    {
+        "product_id": 12,
+        "customer_id": 403,
+        "cogs": 944.2333566832315,
+        "quantity": 5,
+        "unit_sale_price": 970.483326228049
+    },
+    {
+        "product_id": 1,
+        "customer_id": 78,
+        "cogs": 210.778785444592,
+        "quantity": 10,
+        "unit_sale_price": 1086.6543157994074
+    },
+    {
+        "product_id": 7,
+        "customer_id": 324,
+        "cogs": 648.189492818978,
+        "quantity": 2,
+        "unit_sale_price": 998.3763506738788
+    },
+    {
+        "product_id": 1,
+        "customer_id": 279,
+        "cogs": 533.4989392120233,
+        "quantity": 1,
+        "unit_sale_price": 961.4810182181017
+    },
+    {
+        "product_id": 2,
+        "customer_id": 19,
+        "cogs": 23.571554703704173,
+        "quantity": 5,
+        "unit_sale_price": 960.3262736848917
+    },
+    {
+        "product_id": 2,
+        "customer_id": 913,
+        "cogs": 242.71904569679103,
+        "quantity": 2,
+        "unit_sale_price": 1198.5281831627137
+    },
+    {
+        "product_id": 13,
+        "customer_id": 787,
+        "cogs": 491.48761086284605,
+        "quantity": 9,
+        "unit_sale_price": 1175.3873462383754
+    },
+    {
+        "product_id": 4,
+        "customer_id": 494,
+        "cogs": 234.06601174370678,
+        "quantity": 2,
+        "unit_sale_price": 540.259158864787
+    },
+    {
+        "product_id": 13,
+        "customer_id": 9,
+        "cogs": 650.0417916243631,
+        "quantity": 8,
+        "unit_sale_price": 752.0392580084094
+    },
+    {
+        "product_id": 1,
+        "customer_id": 72,
+        "cogs": 953.2148892344808,
+        "quantity": 3,
+        "unit_sale_price": 1159.1706231757832
+    },
+    {
+        "product_id": 6,
+        "customer_id": 82,
+        "cogs": 96.37505346244787,
+        "quantity": 3,
+        "unit_sale_price": 761.627579845734
+    },
+    {
+        "product_id": 10,
+        "customer_id": 365,
+        "cogs": 188.32755041822827,
+        "quantity": 6,
+        "unit_sale_price": 208.08558907181674
+    },
+    {
+        "product_id": 6,
+        "customer_id": 875,
+        "cogs": 350.8544420467931,
+        "quantity": 8,
+        "unit_sale_price": 1117.9987122007046
+    },
+    {
+        "product_id": 8,
+        "customer_id": 970,
+        "cogs": 732.6420053139552,
+        "quantity": 5,
+        "unit_sale_price": 1077.2640213697728
+    },
+    {
+        "product_id": 15,
+        "customer_id": 636,
+        "cogs": 661.4299507049059,
+        "quantity": 10,
+        "unit_sale_price": 687.3887957206766
+    },
+    {
+        "product_id": 9,
+        "customer_id": 341,
+        "cogs": 180.72256512093338,
+        "quantity": 8,
+        "unit_sale_price": 574.9267811275345
+    },
+    {
+        "product_id": 5,
+        "customer_id": 560,
+        "cogs": 46.452342692961764,
+        "quantity": 9,
+        "unit_sale_price": 84.56891184342722
+    },
+    {
+        "product_id": 11,
+        "customer_id": 910,
+        "cogs": 812.9846199313447,
+        "quantity": 7,
+        "unit_sale_price": 929.4670109561662
+    },
+    {
+        "product_id": 11,
+        "customer_id": 563,
+        "cogs": 185.50240191140958,
+        "quantity": 1,
+        "unit_sale_price": 925.485230887544
+    },
+    {
+        "product_id": 2,
+        "customer_id": 693,
+        "cogs": 540.9331504164579,
+        "quantity": 2,
+        "unit_sale_price": 920.384834614644
+    },
+    {
+        "product_id": 6,
+        "customer_id": 474,
+        "cogs": 301.2973174466045,
+        "quantity": 5,
+        "unit_sale_price": 1183.3755893642099
+    },
+    {
+        "product_id": 13,
+        "customer_id": 989,
+        "cogs": 335.83580039541476,
+        "quantity": 1,
+        "unit_sale_price": 727.6858693228164
+    },
+    {
+        "product_id": 11,
+        "customer_id": 587,
+        "cogs": 837.1441201856857,
+        "quantity": 4,
+        "unit_sale_price": 1181.2846515610163
+    },
+    {
+        "product_id": 10,
+        "customer_id": 421,
+        "cogs": 528.6717619372823,
+        "quantity": 3,
+        "unit_sale_price": 792.4436475667222
+    },
+    {
+        "product_id": 1,
+        "customer_id": 99,
+        "cogs": 942.1269716452049,
+        "quantity": 6,
+        "unit_sale_price": 968.1716805355843
+    },
+    {
+        "product_id": 5,
+        "customer_id": 365,
+        "cogs": 950.3958123395171,
+        "quantity": 2,
+        "unit_sale_price": 1030.1134197585272
+    },
+    {
+        "product_id": 2,
+        "customer_id": 183,
+        "cogs": 684.0003054893945,
+        "quantity": 4,
+        "unit_sale_price": 758.5092272850397
+    },
+    {
+        "product_id": 7,
+        "customer_id": 277,
+        "cogs": 904.2647962041121,
+        "quantity": 8,
+        "unit_sale_price": 989.8373502742909
+    },
+    {
+        "product_id": 11,
+        "customer_id": 867,
+        "cogs": 711.5332542781416,
+        "quantity": 9,
+        "unit_sale_price": 880.4192186058756
+    },
+    {
+        "product_id": 15,
+        "customer_id": 206,
+        "cogs": 921.7760540696994,
+        "quantity": 7,
+        "unit_sale_price": 1187.8836330524268
+    },
+    {
+        "product_id": 13,
+        "customer_id": 563,
+        "cogs": 849.8686778613892,
+        "quantity": 9,
+        "unit_sale_price": 879.5637145402421
+    },
+    {
+        "product_id": 7,
+        "customer_id": 991,
+        "cogs": 994.2773294301895,
+        "quantity": 1,
+        "unit_sale_price": 1094.5742650922996
+    },
+    {
+        "product_id": 1,
+        "customer_id": 800,
+        "cogs": 958.1870787036264,
+        "quantity": 1,
+        "unit_sale_price": 1152.9479739056321
+    }
+]
