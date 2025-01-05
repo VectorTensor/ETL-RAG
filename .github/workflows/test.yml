@@ -31,7 +31,8 @@ jobs:
 
       # Change to the 'source' directory
       - name: Navigate to source directory
-        run: cd source 
+        working-directory: source
+        run: echo "Changed to source directory"
 
       # Install dependencies using Poetry
       - name: Install dependencies
@@ -41,5 +42,5 @@ jobs:
       # Run tests
       - name: Run tests
         working-directory: source
-        run:  python -m unittest tests/generator_working.py.
+        run:  python -m unittest tests/generator_working.py
 

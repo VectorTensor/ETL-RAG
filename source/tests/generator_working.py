@@ -1,10 +1,6 @@
 import unittest
 
 from generate_fake_transaction_data import generate_fake_sales_data
-import sys
-import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
-
 
 
 class TestGenerateListFunction(unittest.TestCase):
