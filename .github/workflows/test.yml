@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - current-local-go-db2-version 
-    pull_request:
+  pull_request:
     branches:
       - main
 
