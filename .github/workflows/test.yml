@@ -27,12 +27,15 @@ jobs:
       - name: Install Poetry
         run: pip install poetry 
 
+
+      - name: start shell 
+        working-directory: source
+        run: poetry shell 
+
       # Install dependencies using Poetry
       - name: Install dependencies
         working-directory: source
-        run:|
-              poetry shell
-              poetry install
+        run: poetry install
 
 
       # Run tests
