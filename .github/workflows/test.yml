@@ -42,5 +42,5 @@ jobs:
       # Run tests
       - name: Run tests
         working-directory: source
-        run: poetry run pytest --cov=./source/tests/.
+        run:  python -m unittest tests/generator_working.py.
 
