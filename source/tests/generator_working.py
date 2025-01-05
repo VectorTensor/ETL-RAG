@@ -1,5 +1,7 @@
 import unittest
+
 from generate_fake_transaction_data import generate_fake_sales_data
+
 
 class TestGenerateListFunction(unittest.TestCase):
     def test_generate_list_size(self):
