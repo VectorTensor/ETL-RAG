@@ -31,8 +31,7 @@ jobs:
 
       # Change to the 'source' directory
       - name: Navigate to source directory
-        working-directory: source
-        run: echo "Changed to source directory"
+        run: cd source 
 
       # Install dependencies using Poetry
       - name: Install dependencies
