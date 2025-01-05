@@ -27,11 +27,6 @@ jobs:
       - name: Install Poetry
         run: pip install poetry 
 
-
-      - name: start shell 
-        working-directory: source
-        run: poetry shell 
-
       # Install dependencies using Poetry
       - name: Install dependencies
         working-directory: source
@@ -41,5 +36,5 @@ jobs:
       # Run tests
       - name: Run tests
         working-directory: source
-        run:  python -m unittest tests/generator_working.py
+        run: poetry run python -m unittest tests/generator_working.py
 
