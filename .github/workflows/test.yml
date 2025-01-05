@@ -21,7 +21,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10' # Specify the Python version
+          python-version: '3.13' # Specify the Python version
 
       # Install Poetry
       - name: Install Poetry
@@ -29,15 +29,10 @@ jobs:
           curl -sSL https://install.python-poetry.org | python3 -
           echo "$HOME/.local/bin" >> $GITHUB_PATH
 
-      # Change to the 'source' directory
-      - name: Navigate to source directory
-        working-directory: source
-        run: echo "Changed to source directory"
-
       # Install dependencies using Poetry
       - name: Install dependencies
-        working-directory: source
         run: poetry install
+
 
       # Run tests
       - name: Run tests
