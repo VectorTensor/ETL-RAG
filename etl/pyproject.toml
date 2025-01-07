@@ -8,6 +8,9 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 apache-airflow = {version = "2.7.2", extras = ["celery", "postgres", "redis"]}
+python-dotenv = "^1.0.1"
+sqlalchemy = "1.4.28"
+psycopg2 = "^2.9.10"
 
 
 [build-system]
