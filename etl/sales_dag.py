@@ -13,6 +13,7 @@ from dotenv import load_dotenv
 
 from pathlib import Path
 from sqlalchemy import create_engine
+import boto3
 
 load_dotenv(dotenv_path='/home/prayash/Prayash/ETL-RAG/etl/.env')
 host = os.getenv('host')
@@ -30,6 +31,16 @@ transform_folder = root_ / 'transform'
 
 connection_string = f"postgresql+psycopg2://{user}:{password}@" \
     f"{host}:{5432}/{dbname}"
+
+
+def download_s3():
+    # Create an S3 client
+    s3 = boto3.client('s3')
+
+    # Define the bucket name
+    bucket_name = "sales-bucket-p64"
+
+    s3.download_file(bucket_name, '2025-01-05.json', source_file)
 
 
 def extract():
@@ -89,6 +100,12 @@ dag = DAG(
     schedule_interval=timedelta(days=1),
 )
 
+execute_download = PythonOperator(
+        task_id = 'download',
+        python_callable=download_s3,
+        dag=dag
+        )
+
 execute_extract = PythonOperator(
     task_id='extract',
     python_callable=extract,
@@ -112,4 +129,4 @@ execute_load = PythonOperator(
 )
 
 
-execute_extract >> execute_transform >> execute_load
+execute_download >> execute_extract >> execute_transform >> execute_load
