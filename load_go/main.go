@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+  "encoding/csv"
 
 	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"
@@ -13,8 +14,11 @@ import (
 
 type dbData  struct{
 
-  Name string
-  Email string 
+  product_id int  
+  customer_id int
+  cogs float32
+  quantity int
+  unit_sale_price float32
 
  
 }
