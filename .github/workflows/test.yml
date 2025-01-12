@@ -30,7 +30,7 @@ jobs:
       # Install dependencies using Poetry
       - name: Install dependencies
         working-directory: source
-        run: poetry install
+        run: poetry install --no-root
 
 
       # Run tests
